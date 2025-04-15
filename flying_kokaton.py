@@ -33,7 +33,7 @@ def main():
         if key_lst[pg.K_LEFT]:
             x-=1
         if key_lst[pg.K_RIGHT]:
-            x+=1
+            x+=2
         image_rct.move_ip((x,y))
         tmr=tmr%3200
         screen.blit(bg_img,[-tmr,0])
