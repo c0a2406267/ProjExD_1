@@ -23,6 +23,7 @@ def main():
         for event in pg.event.get():
             if event.type == pg.QUIT:
                 return
+        image_rct.move_ip((-1,0))
         key_lst=pg.key.get_pressed()
         if key_lst[pg.K_UP]:
             image_rct.move_ip((0,-1))
