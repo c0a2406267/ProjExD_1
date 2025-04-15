@@ -13,6 +13,7 @@ def main():
     bg_img2=pg.transform.flip(bg_img, True, False)
     image=pg.image.load("fig/3.png")
     image=pg.transform.flip(image, True, False)
+    image_rct=image.get_rect()
     tmr = 0
     
 
