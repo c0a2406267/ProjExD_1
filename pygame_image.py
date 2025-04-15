@@ -14,6 +14,7 @@ def main():
     image=pg.image.load("fig/3.png")
     image=pg.transform.flip(image, True, False)
     image_rct=image.get_rect()
+    image_rct.center=300,200
     tmr = 0
     
 
